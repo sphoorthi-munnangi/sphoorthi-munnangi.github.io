@@ -1,0 +1,415 @@
+/* Custom portfolio colors for HTML5 UP Alpha */
+
+:root {
+    --portfolio-navy: #14263d;
+    --portfolio-teal: #0f766e;
+    --portfolio-white: #ffffff;
+}
+
+/* Main hero banner */
+#banner {
+    background: var(--portfolio-navy);
+    color: var(--portfolio-white);
+}
+
+#banner h2,
+#banner p {
+    color: var(--portfolio-white);
+}
+
+/* Header and navigation */
+#header {
+    background: var(--portfolio-navy);
+}
+
+#header h1,
+#header h1 a,
+#header nav > ul > li > a {
+    color: var(--portfolio-white);
+}
+
+/* Main headings and links */
+h2, h3, h4 {
+    color: var(--portfolio-navy);
+}
+
+a {
+    color: var(--portfolio-teal);
+}
+
+/* Primary buttons */
+input[type="submit"].primary,
+input[type="button"].primary,
+button.primary,
+.button.primary {
+    background-color: var(--portfolio-teal);
+    border-color: var(--portfolio-teal);
+    color: var(--portfolio-white);
+}
+
+/* Icons and highlights */
+.icon.major {
+    color: var(--portfolio-teal);
+}
+
+/* Keyboard accessibility */
+a:focus-visible,
+button:focus-visible {
+    outline: 3px solid var(--portfolio-teal);
+    outline-offset: 3px;
+}
+
+/* Contact section: navy background and teal buttons */
+#cta {
+    background: #14263d;
+    color: #ffffff;
+}
+
+#cta h2,
+#cta p {
+    color: #ffffff;
+}
+
+/* GitHub button */
+#cta .button.primary {
+    background-color: #0f766e;
+    border-color: #0f766e;
+    color: #ffffff !important;
+}
+
+#cta .button.primary:hover {
+    background-color: #115e59;
+    color: #ffffff !important;
+}
+
+/* LinkedIn button */
+#cta .button.alt {
+    background-color: #ffffff;
+    border-color: #ffffff;
+    color: #0f766e !important;
+}
+
+#cta .button.alt:hover {
+    background-color: #f1f5f9;
+    color: #115e59 !important;
+}
+
+/* About Me portrait */
+#about .image.featured {
+    display: block;
+    width: min(100%, 340px);
+    margin: 2rem auto 0;
+}
+
+#about .image.featured img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 16px;
+}
+
+
+/* About Me: photo beside introduction */
+#about .about-layout {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1.5fr);
+    gap: 2.5rem;
+    align-items: center;
+    text-align: left;
+}
+
+#about .about-photo img {
+    display: block;
+    width: 100%;
+    max-width: 320px;
+    height: auto;
+    border-radius: 16px;
+}
+
+#about .about-content h2 {
+    margin-bottom: 1rem;
+    color: #14263d;
+}
+
+#about .about-content p {
+    margin-bottom: 1rem;
+}
+
+/* Stack photo and text on smaller screens */
+@media screen and (max-width: 736px) {
+    #about .about-layout {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+        text-align: center;
+    }
+
+    #about .about-photo img {
+        max-width: 260px;
+        margin: 0 auto;
+    }
+}
+
+
+/* Center the About Me text beside the portrait */
+#about .about-content {
+    text-align: center;
+}
+
+
+/* Match the Skills heading to Featured Projects */
+#skills {
+    padding-top: 0;
+}
+
+#skills > header.major {
+    background: #f5f5f5;
+    margin: 0 -3em 2em;
+    padding: 3em 2em 2em;
+    text-align: center;
+}
+
+#skills > header.major h2 {
+    color: #14263d;
+}
+
+#skills > header.major p {
+    color: #777777;
+}
+
+@media screen and (max-width: 736px) {
+    #skills > header.major {
+        margin: 0 -1.5em 2em;
+        padding: 2em 1.5em;
+    }
+}
+
+
+/* Remove the extra line above the skills cards */
+#skills > .features-row:first-of-type {
+    border-top: none;
+}
+
+
+/* Link from Skills to Featured Projects */
+#skills .skills-project-link {
+    color: #14263d;
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+    transition: color 0.2s, border-color 0.2s;
+}
+
+#skills .skills-project-link:hover,
+#skills .skills-project-link:focus-visible {
+    color: #0f766e;
+    border-bottom-color: #0f766e;
+}
+
+
+/* Clearly visible link beneath Hands-On Projects */
+#skills .skills-project-action {
+    margin-top: 0.75rem;
+}
+
+#skills .skills-project-action a {
+    color: #0f766e;
+    font-weight: 600;
+    text-decoration: none;
+    border-bottom: 2px solid #0f766e;
+    padding-bottom: 3px;
+}
+
+#skills .skills-project-action a:hover {
+    color: #14263d;
+    border-bottom-color: #14263d;
+}
+
+/* Reduce the gap between Featured Projects heading and cards */
+#projects {
+    margin-bottom: 1.5rem;
+}
+
+
+/* Keep Featured Projects heading close to its cards */
+#projects + .row {
+    margin-top: -2rem;
+}
+
+
+/* Professional Experience */
+.portfolio-experience {
+    max-width: 1100px;
+    margin: 0 auto 4rem;
+}
+
+.portfolio-experience > header.major {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.experience-card {
+    background: #ffffff;
+    border-radius: 12px;
+    padding: 2rem 2.5rem;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 2px 0 rgba(20, 38, 61, 0.08);
+}
+
+.experience-date {
+    color: #0f766e;
+    font-weight: 600;
+}
+
+.experience-card h3 {
+    color: #14263d;
+    margin: 0.5rem 0;
+}
+
+.experience-organization {
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.experience-card p:last-child {
+    margin-bottom: 0;
+}
+
+@media screen and (max-width: 736px) {
+    .experience-card {
+        padding: 1.5rem;
+    }
+}
+
+
+/* Navigation hover and focus colors */
+#header nav > ul > li > a:not(.button):hover,
+#header nav > ul > li > a:not(.button):focus-visible {
+    color: #5eead4;
+}
+
+/* Contact button in the navigation */
+#header nav > ul > li > a.button {
+    border-color: #5eead4;
+    color: #ffffff;
+}
+
+#header nav > ul > li > a.button:hover,
+#header nav > ul > li > a.button:focus-visible {
+    background-color: #0f766e;
+    border-color: #0f766e;
+    color: #ffffff;
+}
+
+
+/* Teal navigation bar */
+#header,
+#header.alt {
+    background-color: #0f766e;
+}
+
+#header h1,
+#header h1 a,
+#header nav > ul > li > a {
+    color: #ffffff;
+}
+
+/* Navigation hover */
+#header nav > ul > li > a:not(.button):hover,
+#header nav > ul > li > a:not(.button):focus-visible {
+    color: #ccfbf1;
+}
+
+/* Contact button */
+#header nav > ul > li > a.button {
+    border-color: #ffffff;
+    color: #ffffff;
+}
+
+#header nav > ul > li > a.button:hover {
+    background-color: #ffffff;
+    color: #0f766e;
+}
+
+
+/* Final navigation colors: navy with teal highlights */
+#header,
+#header.alt {
+    background: #14263d;
+}
+
+#header h1,
+#header h1 a,
+#header nav > ul > li > a {
+    color: #ffffff;
+}
+
+/* Teal highlights when hovering over navigation links */
+#header nav > ul > li > a:not(.button):hover,
+#header nav > ul > li > a:not(.button):focus-visible {
+    color: #5eead4;
+}
+
+/* Contact button: teal outline */
+#header nav > ul > li > a.button {
+    border-color: #5eead4;
+    color: #ffffff;
+    background: transparent;
+}
+
+/* Contact button: teal background on hover */
+#header nav > ul > li > a.button:hover,
+#header nav > ul > li > a.button:focus-visible {
+    background: #0f766e;
+    border-color: #0f766e;
+    color: #ffffff;
+}
+
+
+/* Make the Contact navigation highlight clearly visible */
+#header nav > ul > li > a.button {
+    color: #ffffff !important;
+    box-shadow: inset 0 0 0 2px #5eead4 !important;
+    border: none !important;
+    background-color: transparent !important;
+}
+
+#header nav > ul > li > a.button:hover,
+#header nav > ul > li > a.button:focus-visible {
+    background-color: #0f766e !important;
+    color: #ffffff !important;
+    box-shadow: inset 0 0 0 2px #5eead4 !important;
+}
+
+
+/* Final navigation colors: navy with teal highlights */
+#header,
+#header.alt {
+    background: #14263d;
+}
+
+#header h1,
+#header h1 a,
+#header nav > ul > li > a {
+    color: #ffffff;
+}
+
+/* Teal highlights when hovering over navigation links */
+#header nav > ul > li > a:not(.button):hover,
+#header nav > ul > li > a:not(.button):focus-visible {
+    color: #5eead4;
+}
+
+/* Contact button: teal outline */
+#header nav > ul > li > a.button {
+    border-color: #5eead4;
+    color: #ffffff;
+    background: transparent;
+}
+
+/* Contact button: teal background on hover */
+#header nav > ul > li > a.button:hover,
+#header nav > ul > li > a.button:focus-visible {
+    background: #0f766e;
+    border-color: #0f766e;
+    color: #ffffff;
+}
+

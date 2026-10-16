@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="800" height="450" viewBox="0 0 800 450"
+     role="img" aria-labelledby="title">
+  <title id="title">Future analytics projects illustration</title>
+
+  <rect width="800" height="450" fill="#ffffff"/>
+  <rect x="30" y="30" width="740" height="390"
+        rx="28" fill="#f8fafc" stroke="#e2e8f0"
+        stroke-width="5"/>
+
+  <path d="M205 165
+           Q205 145 225 145
+           H330 L360 175
+           H570 Q590 175 590 195
+           V325 Q590 345 570 345
+           H225 Q205 345 205 325 Z"
+        fill="#14263d"/>
+
+  <rect x="250" y="235" width="42" height="65"
+        rx="7" fill="#99d5cf"/>
+  <rect x="315" y="210" width="42" height="90"
+        rx="7" fill="#0f766e"/>
+  <rect x="380" y="185" width="42" height="115"
+        rx="7" fill="#14b8a6"/>
+
+  <circle cx="555" cy="175" r="62"
+          fill="#0f766e" stroke="#ffffff"
+          stroke-width="9"/>
+  <path d="M555 145 V205 M525 175 H585"
+        stroke="#ffffff" stroke-width="11"
+        stroke-linecap="round"/>
+
+  <path d="M260 325 H525" stroke="#64748b"
+        stroke-width="5" stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     viewBox="0 0 340 190"
+     role="img"
+     aria-labelledby="title desc">
+  <title id="title">Data analytics illustration</title>
+  <desc id="desc">A bar chart with a rising teal trend line.</desc>
+
+  <rect x="12" y="10" width="316" height="170"
+        rx="15" fill="#ffffff"
+        stroke="#e2e8f0" stroke-width="2"/>
+
+  <rect x="32" y="27" width="112" height="9"
+        rx="4" fill="#14263d"/>
+  <rect x="32" y="44" width="77" height="5"
+        rx="2" fill="#cbd5e1"/>
+
+  <path d="M40 147 H302"
+        stroke="#cbd5e1" stroke-width="2"/>
+
+  <rect x="57" y="111" width="27" height="36"
+        rx="4" fill="#99d5cf"/>
+  <rect x="101" y="90" width="27" height="57"
+        rx="4" fill="#0f766e"/>
+  <rect x="145" y="104" width="27" height="43"
+        rx="4" fill="#99d5cf"/>
+  <rect x="189" y="70" width="27" height="77"
+        rx="4" fill="#0f766e"/>
+  <rect x="233" y="56" width="27" height="91"
+        rx="4" fill="#14263d"/>
+
+  <path d="M70 98 L114 77 L158 88
+           L202 55 L246 41 L280 49"
+        fill="none" stroke="#14b8a6"
+        stroke-width="4"
+        stroke-linecap="round"
+        stroke-linejoin="round"/>
+
+  <g fill="#ffffff"
+     stroke="#0f766e" stroke-width="2">
+    <circle cx="70" cy="98" r="4"/>
+    <circle cx="114" cy="77" r="4"/>
+    <circle cx="158" cy="88" r="4"/>
+    <circle cx="202" cy="55" r="4"/>
+    <circle cx="246" cy="41" r="4"/>
+    <circle cx="280" cy="49" r="4"/>
+  </g>
+</svg>
